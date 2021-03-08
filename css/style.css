@@ -102,7 +102,7 @@ body{
 }
 
 .card1{
-	float:right;
+
 	padding-top:20%;
 	padding-right:2%;
 	padding-bottom:25%;
@@ -110,6 +110,7 @@ body{
 	text-align:left;
 	overflow:visible;
 	width:250px;
+	display:inline-block;
 }
 
 
@@ -130,9 +131,10 @@ body{
 
 .news{
 	overflow:visible;
-	padding-top:15%;
 	font-family:Roboto;
 	font:Roboto;
+	display:inline-block;
+	margin-bottom:5%;
 }
 
 .subscribe{
@@ -140,14 +142,14 @@ body{
 	border-radius:30px;
 	border-color:#FE8F79;
 	width:680px;
-	margin-left:25%;
+	margin-left:50%;
 	padding-left:2%;
 	font-size:22px;
 	font-family:Roboto;
 	font:Roboto;
 	height:40px;
 	margin-top:5%;
-
+	display:inline-block;
 }
 
 #btn_subs{
@@ -164,6 +166,7 @@ body{
 	width:200px;
 	font-size:22px;
 	text-align:center;
+
 	
 }
 
@@ -180,7 +183,7 @@ body{
 }
 
 .label_read{
-	display:inline;
+	display:inline-block;
 	overflow:visible;
 	width:25%;
 	float:right;
@@ -190,11 +193,16 @@ body{
 }
 
 #newsimg, #label_read{
-	display:inline;
+	display:inline-block;
+}
+
+.news_sec{
+	display:inline-block;
 }
 
 .news_read_sec{
-	margin-top:70%;
+	margin-top:5%;
+	text-align:center;
 
 }
 
@@ -202,8 +210,9 @@ body{
 	text-align:center;
 	color:#FE8F79;
 	font-size:22px;
-	padding-top:8%;
+	padding-top:5%;
 	padding-bottom:5%;
+	display:inline-block;
 }
 
 
@@ -258,7 +267,12 @@ td input{
 }
 
 .teams{
+	margin-top:3%;
+}
+.teams0{
 	margin-top:5%;
+	margin-left:7%;
+	font-size:26px;
 }
 
 .teams1{
@@ -398,9 +412,16 @@ footer{
 	position: relative;
 	background-size:cover;
 	display:inline-block;
-	overflow:hidden;
+	overflow:visible;
 	color:white;
 	}
+	
+footer h1{
+	font-size:22px;
+}
+footer p{
+	font-size:18px;
+}
 	
 .footer_logo{
 	padding-left:5%;
