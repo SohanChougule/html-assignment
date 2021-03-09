@@ -22,9 +22,9 @@
 			</div>
 		</section>
 		<section class="cards_sec">
-			<div class="cards">
+			<div class="card">
 				<div class="bookmark"><img alt="bookmark" id="bookmark" name="bookmark" src="images/bookmark_icon.png"></div>
-				<div class="card">
+				<div class="content">
 					<ol type="1."><li><h1>The Trail <br> of Wooden Churches</h1>
 					<br>
 					<p>Lorem ipsum dolor sit amet Lorem sit amet Lorem ipsum dolor sit dolort lorem omnis.</p>
@@ -32,9 +32,9 @@
 					<p>READ MORE</p></li></ol>
 				</div>
 			</div>
-			<div class="cards">
+			<div class="card">
 				<div class="bookmark"><img alt="bookmark" id="bookmark" name="bookmark" src="images/bookmark_icon.png"></div>
-				<div class="card">
+				<div class="content">
 					<ol start="2."><li><h1>The Trail <br> of Wooden Churches</h1>
 					<br>
 					<p>Lorem ipsum dolor sit amet Lorem sit amet Lorem ipsum dolor sit dolort lorem omnis.</p>
@@ -42,9 +42,9 @@
 					<p>READ MORE</p></li></ol>
 				</div>
 			</div>
-			<div class="cards">	
+			<div class="card">	
 				<div class="bookmark"><img alt="bookmark" id="bookmark" name="bookmark" src="images/bookmark_icon.png"></div>
-				<div class="card">
+				<div class="content">
 					<ol start="3"><li><h1>The Trail <br> of Wooden Churches</h1>
 					<br>
 					<p>Lorem ipsum dolor sit amet Lorem sit amet Lorem ipsum dolor sit dolort lorem omnis.</p>
@@ -52,15 +52,16 @@
 					<p>READ MORE</p></li></ol>
 				</div>
 			</div>
-			<div class="card1">
+			<div class="content1">
 				<h1>Hiking trials <br> of Puszcza Zielonka</h1>
 				<p>Lorem ipsum dolor sit amet Lorem sit amet Lorem ipsum dolor sit dolort lorem omnis.</p>
 			</div>
+			
 		</section>
 		
 		<section class="news">
 			<div class="subscribe">
-				<label>Subscribe to never miss an event
+				<label><input id="insub" type="text" placeholder="Subscribe to never miss an event">
 				<button id="btn_subs" name="btn_subs">SUBSCRIBE</button></label>
 			</div>
 		</section>
@@ -70,20 +71,21 @@
 			<div class="read">
 				<p>Read this</p>
 				<img name="newsimg" id="newsimg" src="#" >
-			</div>	<div class="label_read" id="label_read">
-					<p>1 month ago</p><p>3 min read</p>
+			</div>	
+			<div class="label_read">
+					<div class="timestamp"><p>1 month ago</p><ul><li>3 min read</li></ul></p></div>
 					<h1>Lorem ipsum dolor sit amet dolor</h1><hr></hr>
 					<p>Lorem ipsum dolor sit amet dolor tutti di mare, con trabe trabajo algier. Lorem ipsum dolor sit amet dolor tutti di mare, con trabe trabajo algier</p>
 					<p><b>Read more</b></p>
-				</div>
 			</div>
+		</div>
 		
 		<div class="news_read">
 			<div class="read">
 				<p>Read this</p>
 				<img name="newsimg" id="newsimg" src="#" >
-			</div>	<div class="label_read" id="label_read">
-					<p>1 month ago</p><p>3 min read</p>
+			</div>	<div class="label_read">
+					<div class="timestamp"><p>1 month ago</p><ul><li>3 min read</li></ul></p></div>
 					<h1>Lorem ipsum dolor sit amet dolor</h1><hr></hr>
 					<p>Lorem ipsum dolor sit amet dolor tutti di mare, con trabe trabajo algier. Lorem ipsum dolor sit amet dolor tutti di mare, con trabe trabajo algier</p>
 					<p><b>Read more</b></p>
@@ -102,22 +104,22 @@
 			<h1>Send Me a Message</h1>
 			<form>
 			<center>
-				<table>
-					<tr>
-						<td><input type="text" placeholder="Name"></td>
-						<td><input type="email" placeholder="Email"></td>
-					</tr>
-					<tr>
-						<td><input type="tel" placeholder="Phone#"></td>
-						<td><input type="text" placeholder="Budget"></td>
-					</tr>
-					<tr>
-						<td colspan="2" id="msg" ><input type="textarea" placeholder="Message" rows="5" ></td>
-					</tr>
-					<tr>
-						<td><input type="submit" value="SEND MESSAGE" id="btn_msg"></td>
-					</tr>
-				</table>
+				<div class="contact">
+					<div class="row1">
+						<div class="col1"><input type="text" placeholder="Name"></div>
+						<div class="col2"><input type="email" placeholder="Email"></div>
+					</div>
+					<div class="row1">
+						<div class="col1"><input type="tel" placeholder="Phone#"></div>
+						<div class="col2"><input type="text" placeholder="Budget"></div>
+					</div>
+					<div class="row1">
+						<div class="col3"><input type="textarea" placeholder="Message" rows="10" ></div>
+					</div>
+					<div class="row1">
+						<div class="col4"><input type="submit" value="SEND MESSAGE" id="btn_msg"></div>
+					</div>
+					
 			</center>	
 			</form>
 		
@@ -147,7 +149,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="teams_sec_2">
+				<div class="teams">
 					<div class="teams5">
 					<div class="bookmark"><img alt="bookmark" id="bookmark" name="bookmark" src="images/bookmark_icon.png">
 					</div>
@@ -175,7 +177,7 @@
 				<h1>Contact</h1><p>tel.: 0 123 456 789 <br>e-mail: contact@mail.com</p>
 			</div>
 			<div class="address"><p>ul. Street 12,<br> 12-345 Gotham City</p></div>
-			<div class="usefullinks"> <h1>Useful links</h1><p>forestsfoundation.com<br> savethewolfs.com</p></div>					
+			<div class="usefullinks"> <h1>Useful links</h1><i><p>forestsfoundation.com<br>savethewolfs.com</p></i></div>					
 		</footer>
 	</body>
 </html>
