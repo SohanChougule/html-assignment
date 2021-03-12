@@ -114,7 +114,7 @@ margin-top:120px;
 }
 
 .content p{
-	font-family:Open Sans;
+	font-family:'Open Sans';
 }
 
 
@@ -122,7 +122,7 @@ margin-top:120px;
 .news{
 	font-family:Roboto;
 	font:Roboto;
-	display:inline-block;
+	margin-top:750px;
 	width:100%;
 }
 
@@ -316,9 +316,6 @@ margin-top:120px;
 	font-family:'Roboto';
 }
 
-.teams{
-	margin-top:3%;
-}
 .teams0{
 	font-family:'Roboto';
 	margin-top:5%;
@@ -373,7 +370,7 @@ margin-top:120px;
 	color:white;
 	width:280px;
 	height:280px;
-	display:inline-block;
+
 }
 
 .teams6{
@@ -385,7 +382,6 @@ margin-top:120px;
 	overflow:hidden;
 	width:280px;
 	height:280px;
-	display:inline-block;
 }
 
 .teams6 h1{
@@ -411,7 +407,6 @@ margin-top:120px;
 .teams7{
 	margin-right:3%;
 	color:black;
-	overflow:hidden;
 	width:280px;
 	height:280px;
 }
@@ -419,23 +414,22 @@ margin-top:120px;
 .teams7 h1{
 	font-size:22px;
 	padding-left:5%;
-	padding-right:10%;
 	text-align:left;
-	padding-top:10%;
 	font-family:'Open Sans';
 }
 
 .teams7 p{
 	font-size:15px;
 	padding-left:5%;
-	padding-right:10%;
+	padding-right:5%;
 	text-align:left;
-	font-family:'Open Sans,light';
+	font-family:'Open Sans';
 }
 
 
 .teams{
 	margin-left:7%;
+	margin-top:4%;
 	display:flex;
 }
 
@@ -450,7 +444,7 @@ margin-top:120px;
 }
 
 footer{
-	margin-top:5%;
+	margin-top:7%;
 	padding-top:5%;
 	height:200px;
 	width:100%;
