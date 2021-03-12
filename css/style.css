@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 body{
+	overflow-x:hidden;
 }
 
 .navbar{
@@ -77,11 +78,15 @@ margin-top:120px;
 	background-image: url("../images/trail_card_bg.png");
 	background-repeat: no-repeat;
 	color:white;
-	overflow:visible;
 	width:23%;
 	height:500px;
 	float:left;
 	margin-right:2%;
+}
+
+.card a{
+	text-decoration:none;
+	color:white;
 }
 
 .content{
@@ -94,10 +99,9 @@ margin-top:120px;
 .content1{
 	padding-top:8%;
 	text-align:left;
-	overflow:visible;
+	float:left;
 	width:23%;
 	font-family:'Roboto', sans-serif;
-	display:inline-block;
 }
 
 .bookmark{
@@ -116,11 +120,9 @@ margin-top:120px;
 
 
 .news{
-	overflow:visible;
 	font-family:Roboto;
 	font:Roboto;
 	display:inline-block;
-	margin-bottom:5%;
 	width:100%;
 }
 
@@ -128,11 +130,11 @@ margin-top:120px;
 	border-style:solid;
 	border-radius:30px;
 	border-color:#FE8F79;
-	width:680px;
-	margin-left:25%;
+	width:60%;
+	margin-top:10%;
+	margin-left:18%;
 	padding-left:2%;
-	margin-top:5%;
-	display:inline-block;
+	height:50px;
 }
 
 #btn_subs{
@@ -145,11 +147,11 @@ margin-top:120px;
 	float:right;
 	padding-top:1%;
 	padding-bottom:1%;
-	padding-left:5%;
-	padding-right:5%;
-	width:200px;
+	padding-left:2%;
+	width:25%;
 	font-size:22px;
 	text-align:center;
+	height:50px;
 }
 
 
@@ -158,8 +160,8 @@ margin-top:120px;
 	font-size:22px;
 	font-family:'Roboto';
 	font:Roboto;
-	height:40px;
-	width:70%;
+	height:45px;
+	width:73%;
 }
 
 
@@ -169,14 +171,15 @@ margin-top:120px;
 
 .news_read{
 	width:100%;
-	margin-top:5px;
+	padding-top:2%;	
+	display:flex;
 }
 
 
 #newsimg{
 	background-color:#373737;
-	width:680px;
-	height:452px;
+	width:100%;
+	height:450px;
 }
 
 .timestamp p,ul{
@@ -198,16 +201,25 @@ margin-top:120px;
 .label_read{
 	width:40%;
 	float:right;
-	margin-bottom:10%;
 	padding-right:5%;
-	margin-top:13%;
+	margin-top:10%;
 	font-family:'Open Sans';
+	padding-left:5%;
+}
+
+.label_read a{
+	text-decoration:none;
+	color:black;
+	font-family:'Open Sans'
 }
 
 .news_read_sec{
-	margin-top:5%;
 	text-align:center;
 
+}
+
+.news_sec1{
+	margin-top:5%;
 }
 
 .news_read_sec p{
@@ -242,11 +254,15 @@ margin-top:120px;
 	width:60%;
 }
 
+.contact hr{
+	margin-top:50px;
+}
+
 .row1{
 	width:100%;
 	text-align:center;
 	padding-top:5%;
-	padding-bottom:5%;
+	margin-top:40px;
 }
 
 .col1{
@@ -272,11 +288,17 @@ margin-top:120px;
 	padding-left:2%;	
 }
 
-.col3 input{
-	height:90px;
+.col3 textarea{
+	padding-top:2%;
 	width:98%;
 	padding-left:2%;
 }
+
+.col4 input{
+	margin-bottom:90px;
+	width:100%;
+}
+
 
 #msg{
 	margin-top:5%;
@@ -375,10 +397,11 @@ margin-top:120px;
 	font-family:'Open Sans';
 }
 
-.teams6 p{
+.teams6 a{
+	text-decoration:none;
+	color:white;
 	font-size:15px;
-	padding-left:20%;
-	padding-right:20%;
+	padding-left:40%;
 	text-align:center;
 	font-family:'Roboto';
 
@@ -435,6 +458,7 @@ footer{
 	position: relative;
 	background-size:cover;
 	color:white;
+	display:flex;
 	}
 	
 footer h1{
