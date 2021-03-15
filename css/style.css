@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Raleway:wght@200;300;400;500;800&display=swap');
+
+
+.header_sec{
+	width:100%;
+	background-color:#000000;
+	height:120px;
+}
+#logo{
+	float:left;
+	padding-left:5%;
+	padding-top:20px;
+}
+
+.navbar{
+	float:right;
+	color:#E2EAF0;
+	width:80%;
+	padding-top:30px;
+}
+
+.navbar a {
+	float:right;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family:'Open Sans';
+	font-weight:400;
+}
+
+.navbar a.active {
+	font-family:'Open Sans';
+	font-weight:600;
+}
+
+.banner_sec{
+	background-image:url('../images/banner_bg.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	height:940px;
+}
+
+.banner_content{
+	float:left;
+	padding-top:150px;
+	padding-left:5%;
+	width:45%;
+}
+
+.banner_content h1{
+	color:#FFFFFF;
+	font-family:'Raleway';
+	font-weight:800;
+	font-size:70px;
+}
+
+.banner_content p{
+	color:#FFFFFF;
+	font-family:'Raleway';
+	font-weight:500;
+	font-size:20px;
+}
+
+#btn_exp{
+	background-color:#FFFFFF;
+	color:#04151F;
+	font-family:'Raleway';
+	font-weight:500;
+	font-size:16px;
+	width:150px;
+	border-radius:25px;
+	height:50px;
+	text-align:center;
+	border:none;
+	margin-top:50px;
+}
+.tour_sec{
+	margin-top:80px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.tour{
+	padding-top:50px;
+	background-color:#E2EAF0;
+	height:600px;
+	float:right;
+	width:65%;
+}
+#img_featured_1{
+	width:35%;
+	height:650px;
+}
+.tour_content{
+	width:70%;
+	padding-left:5%;
+}
+
+.tour_content h1{
+	font-family:'Open Sans';
+	font-weight:800;
+	font-size:25px;
+	color:#04151F
+}
+
+.tour_content p{
+	font-family:'Raleway';
+	font-weight:400;
+	font-size:16px;
+	color:#04151F;
+}
+.tour_content p.p1{
+	font-family:'Raleway';
+	font-weight:400;
+	font-size:15px;
+	color:#707070;
+}
+
+.images{
+	margin-top:5%;
+}
+
+.image{
+	margin-top:25px;
+	margin-right:10px;
+	width:22%;
+}
+
+#img_map{
+	width:50%;
+	height:700px;
+	margin-top:80px;
+}
+
+.tour1{
+	margin-top:80px;
+	height:700px;
+	float:right;
+	width:45%;
+	padding-right:5%;
+}
+
+.image1{
+	float:left;
+	width:50%;
+	height:350px;
+}
+
+#btn_exp2{
+	background-color:#C49D48;
+	color:#E2EAF0;
+	font-family:'Open Sans';
+	font-weight:400;
+	padding:5px;
+	width:200px;
+	height:60px;
+	border-radius:5px;
+	margin-top:150px;
+	margin-left:80px;
+	border:none;
+	font-size:16px;
+	text-align:center;
+}
+
+#img_compass_icon{
+	float:left;
+	padding-left:15px;
+}
+
+#img_arrow_right_icon{
+	float:right;
+	padding-top:5px;
+	padding-right:25px;
+}
+
+.tour_content_2{
+	margin-top:150px;
+	padding-top:50px;
+	padding-left:5%;
+	padding-right:5%;
+	width:90%;
+}
+
+.tour_content_2 h1{
+	font-family:'Open Sans';
+	font-weight:800;
+	font-size:25px;
+	color:#04151F;
+}
+
+.tour_content_2 p{
+	font-family:'Raleway';
+	font-weight:400;
+	font-size:16px;
+	color:#04151F;
+}
