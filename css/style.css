@@ -16,7 +16,7 @@
 	float:right;
 	color:#E2EAF0;
 	width:80%;
-	padding-top:30px;
+	padding-top:20px;
 }
 
 .navbar a {
@@ -247,7 +247,15 @@
 	height:250px;
 	width:100%;
 	opacity:78%;
+	text-align:center;
 }
+
+.vidg a{
+	float:left;
+	margin-top:100px;
+	margin-left:45%;
+}
+
 
 #video_thumb1{
 	background-image:url("../images/video_thumb_1.png");
@@ -292,9 +300,6 @@
 	float:right;
 }
 
-.vid_play{
-	margin-top:100px;
-}
 
 .msg_sec{
 	margin-top:80px;
@@ -304,8 +309,8 @@
 
 .msg_content{
 	margin-top:80px;
-	padding-top:80px;
-	padding-left:20%;
+	padding-top:50px;
+	padding-left:15%;
 	padding-bottom:70px;
 }
 
@@ -323,11 +328,12 @@
 	font-weight:400;
 }
 .msg_content input{
-	height:40px;
+	height:60px;
 	width:55%;
 	border-radius:5px;
 	border:none;
 	padding-left:3%;
+	margin-right:10px;
 }
 
 .msg_content input::placeholder{
@@ -342,7 +348,7 @@
 	padding:5px 10px 5px 10px;
 	border:none;
 	border-radius:5px;
-	width:20%;
+	width:22%;
 	height:40px;
 	color:#E2EAF0;
 	text-align:center;
@@ -350,8 +356,85 @@
 	font-family:'Open Sans';
 	font-weight:600;
 	text-transform:uppercase;
+	height:60px;
 }
 .msg_content button img{
 	float:left;
 	padding-left:5%;
+}
+
+.footer_content{
+	padding-top:80px;
+	padding-bottom:80px;
+	padding-left:5%;
+	height:150px;
+}
+
+
+.footer_content h1{
+	color:#688095;
+	font-family:'Open Sans';
+	font-weight:800;
+	font-size:20px;
+}
+
+.p1{
+	color:#AAA9A9;
+	font-family:'Open Sans';
+	font-weight:400;
+	font-size:16px;
+}
+
+.footer_content ul, li{
+	color:#AAA9A9;
+	font-family:'Open Sans';
+	font-weight:400;
+	font-size:16px;
+}
+
+.footer_content p{
+	color:#688095;
+	font-family:'Open Sans';
+	font-weight:400;
+	font-size:16px;
+}
+
+.footer_logo{
+	float:left;
+	width:27%;
+}
+
+.footer_links{
+	padding-left:10%;
+	float:left;
+	width:25%;
+}
+
+.copyright{
+	margin-top:80px;
+	width:100%;
+	background-color:#688095;
+	height:50px;
+}
+
+.copy_content{
+	float:left;
+	color:#E2EAF0;
+	margin-left:5%;
+	font-family:'Open Sans';
+	font-size:16px;
+}
+
+.copy_content1{
+	margin-right:5%;
+}
+
+.copy_content1 p, a{
+	float:right;
+	text-decoration:none;
+	color:#E2EAF0;
+	margin-left:2%;
+	margin-top:15px;
+	font-family:'Open Sans';
+	font-size:16px;
 }
