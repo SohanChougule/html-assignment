@@ -21,14 +21,27 @@
 }
 
 .navbar{
-	float:right;
 	color:#E2EAF0;
 	width:80%;
-	padding-top:20px;
+	float:right;
+	opacity:78%;
 }
 
-.navbar a {
+.navbar ul{
 	float:right;
+	display:inline;
+	text-align:center;
+	list-style-type: none;
+	margin-right:150px;;
+}
+
+.navbar li{
+	float:left;
+	width:150px;
+}
+
+
+.navbar a {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -36,6 +49,9 @@
 	font-size: 17px;
 	font-family:'Open Sans';
 	font-weight:400;
+	float:left;
+	width:110px;
+	margin-left:100px;
 }
 
 .navbar a.active {
